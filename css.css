@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;   
+    font-family: 'Montserrat', sans-serif;       
+}
+header{
+    background-color: #f0e68c;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.8rem;     
+}
+ header img{
+    max-width: 60vw;
+} 
+.nav{   
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 60vw;
+    padding-bottom: 0.2rem;
+}
+.navButt{
+    font-size: 80%;
+    margin-top: 1rem;    
+    font-weight: 400;
+    color: black;
+    text-decoration: none; 
+    padding: 0 0.3rem 0 0.3rem;    
+}  
+.navButtActive{
+    text-decoration: line-through;
+}
+.navButt:first-child{
+    margin-left: 0.5rem;    
+}    
+.navButt:hover{
+    background-color: black;
+    color: #ffdead;    
+}  
+.navButt:active{
+    text-decoration: line-through;  
+    color: grey;   
+}  
+.guion{
+    padding-top: 0.2rem;
+}
+/* ---------------------MAIN--------- */
+.mainTitle{
+    display: flex;
+    background-color: #f0e68c;
+    padding-top: 6rem;
+    padding-bottom: 1rem;     
+}
+h1{
+   font-size: 7.5vw;
+    margin-left: 1rem;
+    margin-right: 1rem;   
+}    
+.barTextBlack{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.barTextBlackPresent{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #3cb371;
+}
+main{    
+    background-color: #3cb371;
+}
+.mainPresent{
+    background-color: #faebd7;
+}
+.imagHome{
+    max-width: 100%;
+    background-color: #f5f5f5;
+}
+.imagHomeTwo{
+    max-width: 100%;
+}
+.imgW{
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.imgVisit{
+    background-color: #f5f5f5;
+}
+.imgWVisit{
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.price{
+    font-weight: 800;
+    font-size: large;
+    margin-top: 0.5rem;
+}
+.time{
+    font-weight: 500;
+    font-size: large;    
+}
+.separationTitles{
+    margin-top: 0.5rem;
+}
+.barTextBlackMerchaPlay{
+    width: 100%;
+    background-color: #faebd7;
+    padding-bottom: 2rem;
+}
+.playAll{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem; 
+}
+.playAllQuest{
+    background-color: #faebd7;
+}
+h4{
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+}
+.separation{
+    margin-top: 1.3rem;
+}
+.printAll,
+.printAllFav{
+    display: flex;      
+}
+.usuDivOne:hover{
+    border:solid black 0.4rem;
+}
+.usuDivOneFav:hover{
+    border:solid black 0.2rem;
+}
+.usuDivOne {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    border:solid black 0.1rem;
+}
+.usuDivOneFav{
+    width: 100%;
+    background-color: #f5f5f5;
+    border:solid black 0.1rem;
+    margin-right: 1rem;
+}
+.usuDivTwo,
+.usuDivTwoFav {    
+    max-height: 7%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem; 
+    margin-top: 0.5rem;
+}
+.usuDivTwoP,
+.usuDivTwoPFav{
+    font-weight: 900; 
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    font-size: 85%;    
+}
+.usuDivTwoPFav{
+    font-size: 110%; 
+}
+.imgUsu,
+.imgUsuFav{
+    max-height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.imgRamUsu {
+    max-width: 80%;
+    margin-top: 0.4em;
+}
+.usuP,
+.usuPFav {
+   display: flex;
+   justify-content: center;
+   max-width: 100%;
+}
+.imgLogoPrint{
+max-width: 70%;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+#formTwo,
+#form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+label{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.label, 
+.labelDate{
+    margin-right: 0.8rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;    
+}
+#form .labelDate label{
+    margin-right: 0.6rem;
+}
+#form .labelDate input[type ="submit"]{
+    margin-left: 1rem;
+}
+#formTwo .label label{    
+    font-family: 'Montserrat', sans-serif; 
+    padding: 0.2rem;
+    display: inline-block;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+}
+#formTwo .label label:hover{
+    background-color:#3cb371;
+    padding: 0.2rem;
+}
+#formTwo .label label:before{
+    content: "";
+    width: 0.9rem;
+    height: 0.9rem;
+    display: inline-block;
+    border: 0.15rem solid black;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+#formTwo .label input[type = "radio"]{
+display: none;
+}
+#formTwo .label input[type = "radio"]:checked + label:before{
+    background-color:#3cb371;
+}
+button,
+input[type ="submit"],
+input[type ="text"],
+select
+ {
+    border: 0.15rem solid black;
+    padding: 0.2rem;
+    background-color: #faebd7;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+    cursor: pointer;
+}
+button:hover,
+input[type ="submit"]:hover,
+input[type ="text"]:hover,
+select:hover {
+    background-color:#3cb371;   
+}
+input[type ="text"]{
+width: 1.2rem;
+}
+#myfav{
+    margin-top: 0.5rem;
+}
+#buy{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color:#3cb371;
+}
+#buy:hover{
+    background-color:#faebd7;
+}
+/* -----------------FAVS------------------ */
+#favs{  
+    background-color: #faebd7;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;   
+    display: grid;
+    grid-template-columns: 95%;
+    gap: 2rem;
+    justify-content: center;     
+}
+/* -----------------FOOTER------------------ */
+footer{
+    background-color: #ff6347;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.footer p{
+    font-style: italic;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    font-size: smaller;
+}
+.footer img{
+    margin-left: 1rem;  
+    max-width: 6.5rem;      
+}
+/* -----------------MEDIA------------------ */
+@media screen and (min-width: 767px){
+    .navButt{
+        font-size: 120%;           
+    }  
+    .mainTitle{       
+        padding-top: 7.5rem;           
+    }
+    h1{
+        font-size: 8vw;        
+    }
+     .barTextBlackHome{
+        max-width: 80%;
+    }
+    .usuDivTwoP{
+        font-size: 150%;
+    }
+    .usuDivTwoPFav{
+        font-size: 100%; 
+    }
+    .imgWVisit{
+        width: 100%;
+    }    
+    .usuDivOne{
+        width: 80%;
+    }    
+    .usuDivOneFav{
+        background-color: #f5f5f5;
+        border:solid black 0.1rem;
+        align-self: start;
+    }
+    #favs{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 2rem;
+        justify-content: center;
+        }    
+}
+@media screen and (min-width: 1024px){     
+    .imagHome{
+        display: flex;
+        flex-direction: row;
+        max-width: 100vw;
+        background-color: #f5f5f5;
+    }
+    .imgW{
+        max-width: 25%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }    
+    .articleVisit{
+        display: flex;
+        flex-direction: row;
+        max-width: 100vw;
+    }
+    .imgVisit{
+        width: 34%;
+        background-color:  #f5f5f5;
+    }
+    .imgWVisit{
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }    
+    .navButt{
+            font-size: 150%;   
+    }  
+    .mainTitle{       
+            padding-top: 8.5rem;           
+    }
+    .barTextBlackHome{
+            max-width: 25%;
+    }
+    .barTextBlackVisit{
+            width: 33%;
+    }
+    .barTextBlackMercha{
+        max-width: 40%;
+    }
+    .barTextBlackMerchaPlay{
+        max-width: 60%;
+        background-color: #faebd7;
+        padding-top: 0.8rem;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    } 
+    .usuDivOne{
+        width: 70%;
+    }     
+    .pDiscover{
+            display: flex;
+            flex-direction: row;
+    }    
+    .pDiscoverOne{
+        margin-right: 1rem;
+    }
+    .pDiscoverTwo{
+            margin-left: 1rem;
+            padding-top: 3.6rem;
+    }
+    .pDiscoverFirst{
+            display: flex;
+            flex-direction: column;
+    }         
+    .mainPlay{
+            display: flex;
+            flex-direction: row;
+    }
+    .usuDivTwoP{
+        font-size: 120%;
+    }   
+    .usuDivTwoPFav{
+        font-size: 90%; 
+    }    
+    .usuDivOneFav{
+        border:solid black 0.1rem;
+        align-self: start;
+    }
+    #favs{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 2rem;
+        justify-content: center;
+    }    
+}
+@media screen and (max-width: 1024px){
+    .footer img{
+        margin-left: 1rem;
+        max-width: 5.5rem;            
+    }
+    .footer p{
+        font-size: smaller;
+    }
+}
